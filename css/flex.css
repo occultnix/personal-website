@@ -1,0 +1,18 @@
+/* FLEX: ACTIVATE */
+.flex {
+  display: flex;
+}
+
+/* FLEX CENTERING */
+.fl-vc {
+  align-items: center;
+}
+
+.fl-hc {
+  justify-content: center;
+}
+
+.fl-fc {
+  justify-content: center;
+  align-items: center;
+}

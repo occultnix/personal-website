@@ -1,0 +1,57 @@
+/*csslint box-sizing: false*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #9BF;
+}
+
+.card {
+  width: 600px;
+  padding: 24px 36px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: #DD9;
+}
+
+.name {
+  color: gray;
+  margin: 4px 0;
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.tagline {
+  color: grey;
+  margin-bottom: 24px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.category-wrapper {
+  border: 1px dashed grey;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.category-title {
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  justify-content: space-between;
+}
+
+li {
+  text-decoration: none;
+  margin: 6px auto;
+}
