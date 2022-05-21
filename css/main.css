@@ -12,8 +12,8 @@ html, body {
 }
 
 .card {
-  width: 600px;
-  padding: 24px 36px;
+  width: 42rem;
+  padding: 1.25rem 1.5rem;
   box-sizing: border-box;
   border: 1px solid black;
   background-color: #DD9;
@@ -21,37 +21,87 @@ html, body {
 
 .name {
   color: gray;
-  margin: 4px 0;
-  font-size: 36px;
+  margin: 0.4rem 0;
+  font-size: 2.4rem;
   font-family: sans-serif;
   font-weight: bolder;
 }
 
 .tagline {
   color: grey;
-  margin-bottom: 24px;
-  font-size: 12px;
+  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
   font-family: sans-serif;
   font-weight: lighter;
 }
 
 .category-wrapper {
   border: 1px dashed grey;
-  padding: 12px;
-  margin: 12px 0;
+  padding: 0.75rem;
+  margin: 2.5rem auto 0.25rem;
 }
 
 .category-title {
   color: grey;
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: bold;
   font-family: sans-serif;
   text-transform: uppercase;
-  margin-bottom: 6px;
-  justify-content: space-between;
+  margin: 0 auto 0.75rem auto;
+}
+
+ul {
+  flex: 1 1 2rem;
+  flex-wrap: wrap;
 }
 
 li {
   text-decoration: none;
   margin: 6px auto;
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    max-width: 32rem;
+    margin: 2rem;
+  }
+
+  .name, .tagline {
+    text-align: center;
+  }
+
+  .category-wrapper {
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .name {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .category-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .name {
+    text-transform: uppercase;
+    font-size: 1.66rem;
+  }
+
+  .tagline {
+    font-size: 0.75rem;
+  }
+
+  .category-title {
+    font-size: 0.9rem;
+  }
 }

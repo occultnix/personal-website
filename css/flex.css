@@ -16,3 +16,12 @@
   justify-content: center;
   align-items: center;
 }
+
+/* DIRECTION */
+.fl-dv {
+  flex-direction: column;
+}
+
+.fl-dh {
+  flex-direction: row;
+}
